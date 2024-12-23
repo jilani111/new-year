@@ -1,12 +1,18 @@
-.body{
+body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.primary-color{
+    color: orangered;
 }
 
 /* banner section */
 .navbar{
-    display: flex;
-    justify-content: center;
     margin-top: 40px;
 }
 
@@ -14,4 +20,30 @@
     background-image: url("images/Banner-Image.png");
     height: 600px;
     width: 1320px;
+    background-size: cover;
 }
+
+/* discount section */
+.discount{
+    height: 750px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.discount-img{
+    background-image: url("images/New-Year-Photo.png");
+    background-size: contain;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat ;
+}
+
+.discount-quntity{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
