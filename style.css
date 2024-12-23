@@ -1,8 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
 }
@@ -14,6 +12,8 @@ body{
 /* banner section */
 .navbar{
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-banner{
@@ -24,11 +24,15 @@ body{
 }
 
 /* discount section */
-.discount{
+.discount-content{
+    display: flex;
+    justify-content: center;
     height: 750px;
-    width: 700px;
     margin-top: 40px;
-    margin-left: 25%;
+}
+
+.discount{
+    width: 700px;
     text-align: center;
 }
 
@@ -43,7 +47,7 @@ body{
 
 .discount-quntity{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 
