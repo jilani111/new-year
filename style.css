@@ -50,4 +50,51 @@ body{
     font-size: 50px;
 }
 
+/* welcome section */
+.welcome{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.welcome-image{
+    background-image: url("images/Vectorrr.png");
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.wel-message{
+    width: 700px;
+}
+
+.wel-message-1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.wel-message-2{
+    color: rgba(255, 255, 255, 0.73);
+    font-size: 1rem;
+}
+
+.wel-button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.wel-year-img{
+    background-image: url("images/Group-70.png");
+    width: 320px;
+    height: 460px;
+}
 
