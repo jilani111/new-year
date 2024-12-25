@@ -98,3 +98,115 @@ body{
     height: 460px;
 }
 
+/* product section */
+.product{
+    
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pro-message{
+    
+    width: 1320px;
+    height: 1160px;
+}
+
+.pro-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 450px;
+    width: 420px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.pro-img{
+    height: 455px;
+    width: 425px;
+    background-repeat: no-repeat;
+}
+
+/* subscribe section */
+.subscribe{
+    
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-letter{
+    
+    width: 1320px;
+    border-radius: 10px;
+    background-color: rgb(245, 229, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter-body{
+    text-align: center;
+    width: 880px;
+    height: 360px;
+    
+}
+
+.letter-img{ 
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    background-image: url("images/Group-61.png");
+    width: 150px;
+    height: 150px;
+}
+
+.letter-header{
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.letter-mssg{
+    color: rgb(79, 77, 77);
+    font-size: .88rem;
+}
+
+.letter-search{
+  
+    display: flex;
+    justify-content: center;
+}
+
+.search-input{
+    height: 45px;
+    width: 600px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-search{
+    width: 100%;
+    border: 0;
+    font-size: 0.85rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.input-button{
+    width: 250px;
+    background-color: orangered;
+    border: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    font-size: 1rem;
+}
